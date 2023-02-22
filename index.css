@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-color: #EFF5FE;
+}
+
+.body-dark {
+  background-color: #323f59;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+p {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.p-dark {
+  color: white;
+}
+
+.p-normal {
+  font-weight: normal;
+  color: #C7CEDA;
+}
+
+.toggle-bkg {
+  width: 120px;
+  height: 64px;
+  border-radius: 64px;
+  position: relative;
+  background: linear-gradient(#729EF8, #8DB0F9, #729EF8);
+}
+
+.circle {
+  height: 48px;
+  width: 48px;
+  margin: 0px 8px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+}
+
+.circle-right {
+  right: 0;
+}
+
+.circle-left {
+ left: 0; 
+}
